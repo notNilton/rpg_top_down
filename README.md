@@ -29,8 +29,8 @@ This project is a top-down RPG game created using the Godot Engine. It features 
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/your-username/topdown-rpg-game.git
-    cd topdown-rpg-game
+    git clone https://github.com/notNilton/rpg_top_down.git
+    cd rpg_top_down
     ```
 
 2. Open the project in Godot Engine:
