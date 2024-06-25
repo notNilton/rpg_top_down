@@ -1,0 +1,81 @@
+[gd_scene load_steps=3 format=3 uid="uid://cidnob4gwwy7q"]
+
+[ext_resource type="Script" path="res://backpack.gd" id="1_wggpx"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_lcm61"]
+bg_color = Color(0.647395, 0.647395, 0.647395, 1)
+
+[node name="Backpack" type="CenterContainer"]
+offset_right = 400.0
+offset_bottom = 250.0
+script = ExtResource("1_wggpx")
+
+[node name="Background" type="Panel" parent="."]
+custom_minimum_size = Vector2(400, 250)
+layout_mode = 2
+
+[node name="Grid" type="GridContainer" parent="."]
+layout_mode = 2
+theme_override_constants/h_separation = 40
+theme_override_constants/v_separation = 30
+columns = 4
+
+[node name="0" type="Panel" parent="Grid"]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_lcm61")
+
+[node name="1" type="Panel" parent="Grid"]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_lcm61")
+
+[node name="2" type="Panel" parent="Grid"]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_lcm61")
+
+[node name="3" type="Panel" parent="Grid"]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_lcm61")
+
+[node name="4" type="Panel" parent="Grid"]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_lcm61")
+
+[node name="5" type="Panel" parent="Grid"]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_lcm61")
+
+[node name="6" type="Panel" parent="Grid"]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_lcm61")
+
+[node name="7" type="Panel" parent="Grid"]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_lcm61")
+
+[node name="8" type="Panel" parent="Grid"]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_lcm61")
+
+[node name="9" type="Panel" parent="Grid"]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_lcm61")
+
+[node name="10" type="Panel" parent="Grid"]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_lcm61")
+
+[node name="11" type="Panel" parent="Grid"]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_lcm61")

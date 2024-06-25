@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3 uid="uid://ckgd6x4pjarmr"]
+
+[ext_resource type="Texture2D" uid="uid://8vea5503uq2d" path="res://iso.png" id="1_suww4"]
+
+[sub_resource type="OccluderPolygon2D" id="OccluderPolygon2D_j62uv"]
+polygon = PackedVector2Array(-32, 0, 0, 16, 32, -1, 32, 6, 0, 23, -32, 8)
+
+[node name="Grass_Block" type="StaticBody2D"]
+collision_layer = 4
+collision_mask = 0
+
+[node name="Sprite" type="Sprite2D" parent="."]
+position = Vector2(0, 15)
+texture = ExtResource("1_suww4")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
+visible = false
+position = Vector2(0, 15)
+rotation = 3.14159
+polygon = PackedVector2Array(-32, -16, -2.88495e-06, -33, 32, -16, 32, 17, -3.49691e-07, -4, -32, 17)
+disabled = true
+one_way_collision = true
+
+[node name="LightOccluder2D" type="LightOccluder2D" parent="."]
+occluder = SubResource("OccluderPolygon2D_j62uv")
